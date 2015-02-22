@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TheExtensionLab_ReviewNotifier>
+            <version>0.1.0</version>
+        </TheExtensionLab_ReviewNotifier>
+    </modules>
+
+    <phpunit>
+        <suite>
+            <modules>
+                <TheExtensionLab_ReviewNotifier/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>
