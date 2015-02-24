@@ -13,6 +13,12 @@
             </theextensionlab_reviewnotifier>
         </models>
 
+        <helpers>
+            <theextensionlab_reviewnotifier>
+                <class>TheExtensionLab_ReviewNotifier_Helper</class>
+            </theextensionlab_reviewnotifier>
+        </helpers>
+
         <events>
             <review_save_after>
                 <observers>

@@ -3,6 +3,7 @@
     public function testClassAiases()
     {
         $this->assertModelAlias('theextensionlab_reviewnotifier/observer','TheExtensionLab_ReviewNotifier_Model_Observer');
+        $this->assertHelperAlias('theextensionlab_reviewnotifier','TheExtensionLab_ReviewNotifier_Helper_Data');
     }
 
     public function testObserverConfig()
