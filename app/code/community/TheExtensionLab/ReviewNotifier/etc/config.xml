@@ -12,6 +12,17 @@
                 <class>TheExtensionLab_ReviewNotifier_Model</class>
             </theextensionlab_reviewnotifier>
         </models>
+
+        <events>
+            <review_save_after>
+                <observers>
+                    <theextensionlab_reviewnotifier>
+                        <class>theextensionlab_reviewnotifier/observer</class>
+                        <method>reviewSaveAfter</method>
+                    </theextensionlab_reviewnotifier>
+                </observers>
+            </review_save_after>
+        </events>
     </global>
 
     <phpunit>

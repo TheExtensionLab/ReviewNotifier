@@ -9,9 +9,9 @@
     {
         $this->assertEventObserverDefined(
             'global',
-            'review_model_save_after',
-            'TheExtensionLab_ReviewNotifier_Model_Observer',
-            'reviewModelSaveAfter'
+            'review_save_after',
+            'theextensionlab_reviewnotifier/observer',
+            'reviewSaveAfter'
         );
     }
 }
