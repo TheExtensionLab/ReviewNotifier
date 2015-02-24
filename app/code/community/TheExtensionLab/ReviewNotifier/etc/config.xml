@@ -6,6 +6,14 @@
         </TheExtensionLab_ReviewNotifier>
     </modules>
 
+    <global>
+        <models>
+            <theextensionlab_reviewnotifier>
+                <class>TheExtensionLab_ReviewNotifier_Model</class>
+            </theextensionlab_reviewnotifier>
+        </models>
+    </global>
+
     <phpunit>
         <suite>
             <modules>
