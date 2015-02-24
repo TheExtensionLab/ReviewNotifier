@@ -4,4 +4,14 @@
     {
         $this->assertModelAlias('theextensionlab_reviewnotifier/observer','TheExtensionLab_ReviewNotifier_Model_Observer');
     }
+
+    public function testObserverConfig()
+    {
+        $this->assertEventObserverDefined(
+            'global',
+            'review_model_save_after',
+            'TheExtensionLab_ReviewNotifier_Model_Observer',
+            'reviewModelSaveAfter'
+        );
+    }
 }
