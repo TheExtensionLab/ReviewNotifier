@@ -9,8 +9,9 @@
     <phpunit>
         <suite>
             <modules>
-                <TheExtensionLab_ReviewNotifier/>
+                <TheExtensionLab_ReviewNotifier />
             </modules>
         </suite>
     </phpunit>
+
 </config>

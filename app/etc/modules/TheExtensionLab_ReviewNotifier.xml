@@ -1,12 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <TheExtensionLab_ReviewNotifer>
+        <TheExtensionLab_ReviewNotifier>
             <active>true</active>
             <codePool>community</codePool>
-            <depends>
-                <Mage_Review/>
-            </depends>
-        </TheExtensionLab_ReviewNotifer>
+        </TheExtensionLab_ReviewNotifier>
     </modules>
 </config>
