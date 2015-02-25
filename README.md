@@ -6,6 +6,10 @@ Compatibility
 - Magento Community >= 1.4.2.0
 - Magento Enterprise >= 1.12.0.0
 
+Confiuration
+------------
+The Configurations settings for this extension at stored under ```Magento Admin > System > Configuration > Catalog > Catalog > Product Reviews```
+
 Extension Overview
 ------------------
 Modman: Yes
