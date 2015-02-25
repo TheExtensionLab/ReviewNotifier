@@ -4,7 +4,7 @@ Adds e-mail alerts to Magento for new product reviews.
 Compatibility
 -------------
 - Magento Community >= 1.4.2.0
-- Magento Enterprise >=
+- Magento Enterprise >= 1.12.0.0
 
 Extension Overview
 ------------------
