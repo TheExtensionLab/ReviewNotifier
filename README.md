@@ -8,7 +8,7 @@ Compatibility
 
 Confiuration
 ------------
-The Configurations settings for this extension at store under Magento Admin > System > Configuration > Catalog > Catalog > Product Reviews
+The Configurations settings for this extension at stored under ```Magento Admin > System > Configuration > Catalog > Catalog > Product Reviews```
 
 Extension Overview
 ------------------
