@@ -15,6 +15,15 @@
         }
 
         //Send admin alert e-mail here
+
+        $helper = $this->getHelper();
+        $helper->sendNewReviewAlertEmail($review);
+
         return $this;
+    }
+
+    protected function getHelper()
+    {
+        return Mage::helper('theextensionlab_reviewnotifier');
     }
 }

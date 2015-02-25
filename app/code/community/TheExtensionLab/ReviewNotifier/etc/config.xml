@@ -29,12 +29,33 @@
                 </observers>
             </review_save_after>
         </events>
+
+        <template>
+            <email>
+                <theextensionlab_reviewnotifier_new_review>
+                    <label>New Review Notification Template</label>
+                    <file>theextensionlab/reviewnotifier/new_review.html</file>
+                    <type>html</type>
+                </theextensionlab_reviewnotifier_new_review>
+            </email>
+        </template>
+
     </global>
+
+    <default>
+        <catalog>
+            <review>
+                <enable_alerts>0</enable_alerts>
+                <alert_email_identity>general</alert_email_identity>
+                <alert_email_template>theextensionlab_reviewnotifier_new_review</alert_email_template>
+            </review>
+        </catalog>
+    </default>
 
     <phpunit>
         <suite>
             <modules>
-                <TheExtensionLab_ReviewNotifier />
+                <TheExtensionLab_ReviewNotifier/>
             </modules>
         </suite>
     </phpunit>
