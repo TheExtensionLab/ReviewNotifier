@@ -32,11 +32,11 @@
 
         <template>
             <email>
-                <theextensionlab_reviewnotifier_new_review>
+                <catalog_review_alert_email_template>
                     <label>New Review Notification Template</label>
                     <file>theextensionlab/reviewnotifier/new_review.html</file>
                     <type>html</type>
-                </theextensionlab_reviewnotifier_new_review>
+                </catalog_review_alert_email_template>
             </email>
         </template>
 
@@ -47,7 +47,7 @@
             <review>
                 <enable_alerts>0</enable_alerts>
                 <alert_email_identity>general</alert_email_identity>
-                <alert_email_template>theextensionlab_reviewnotifier_new_review</alert_email_template>
+                <alert_email_template>catalog_review_alert_email_template</alert_email_template>
             </review>
         </catalog>
     </default>
