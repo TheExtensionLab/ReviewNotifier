@@ -1,4 +1,6 @@
 # Review Notifier
+
+[![Join the chat at https://gitter.im/TheExtensionLab/ReviewNotifier](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TheExtensionLab/ReviewNotifier?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Adds e-mail alerts to Magento for new product reviews.
 
 Compatibility
